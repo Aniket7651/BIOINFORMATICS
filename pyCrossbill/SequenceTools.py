@@ -87,18 +87,22 @@ def NeedlemanWunschMatric(sequence1, sequence2, gap_penalty, match_score, mismat
         return 'ERR: add large sequence as sequence1!\nsmaller sequence as sequence2!'
 
 
+# finding complementary of a genetic sequence
+# returns string type sequential value
 def ComplementarySeq(sequence):
     try:
         complementarySeq = ''
+        # data for replacing a code to another, store in dict. form
         replace = {'A': 'T', 'G': 'C', 'C': 'G', 'T': 'A',
                    'a': 'T', 't': 'A', 'g': 'C', 'c': 'G'}
         for i in sequence:
-            key = i
+            key = i         # check again and again, is 'i' in replace dict or not.. 
             if i == key:
-                complementarySeq += replace[key]
+                complementarySeq += replace[key]     # adding to empty complementarySeq string
         return complementarySeq
     except (KeyError, ValueError):
-        return 'ERR: use codon character only (i.e. A, T, G, C)'
+        # in the case of getting wrong letter, return err massege 
+        return 'ERR: used codon should be character only (i.e. A, T, G, C)'
 
 
 class SerialComparison():

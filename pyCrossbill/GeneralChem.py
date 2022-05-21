@@ -202,7 +202,7 @@ def NBP(smile_represnt):
 # this is the program for predict the value of melting point chemical compound using joback method
 # group contribution is taken from wikipidia site, value of group contribution
 # is acually the value of phase transtions of tempratures, use only on organic compound 
-def melting_group_contribution(smile_represnt):
+def melting_group_contribution(smile_represnt, high_err=237.84, low_err=29.85):
     # takes the smile represent of chemical structure
     # SMALL letter for ring group and CAPITAL for non-ring 
 
@@ -236,10 +236,10 @@ def melting_group_contribution(smile_represnt):
     # returns answer in floating point use in prediction of normal melting point
     if smile_represnt.count('C')>=17 or smile_represnt.count('=')>=5:
         # melting point dependency -- number of carbon, number of double bond
-        # present in the smile
-        return sum_Gi-237.85       # 237.85 value is obtain form the reading, 14 drug data and,                                 # calculate mean of the error in melting point as well 29.85  
+        # present in the smile     # calculate mean of the error in melting point as well 29.85 
+        return sum_Gi-high_err     # 237.85 value is obtain form the reading, 14 drug data and, 
     else:                          # calculate mean of the error of highly errorify predictions
-        return sum_Gi-29.82        # as well, 29.82 is obtain from low error predicted data
+        return sum_Gi-low_err      # as well, 29.82 is obtain from low error predicted data
 
 # NBP is stands for normal melting point using joback method
 # returns single integer type of value 
@@ -282,13 +282,13 @@ class Temperature_Conversion():
 # print(peptide_Molecular_weight(s2))
 # print(ssDNA_MoleculerWeight(s2))      # 3465.2 g/mol
 # print(ssRNA_MoleculerWeight(s1))
-no_contant_list, element = read_empirical('C16H25NO2')
-print('MW: ', Organic_MolecularWeight(no_contant_list, element))
+# no_contant_list, element = read_empirical('C16H25NO2')
+# print('MW: ', Organic_MolecularWeight(no_contant_list, element))
 smile_represnt = 'CCOC(=O)C1=CC2CN(C(=O)C3=C(N2C=N1)C=CC(=C3)F)C' #  ASIPRINE
 # CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3  DIAZEPAM
 # 2-[2-(2,6-dichloroanilino)phenyl]acetic acid -- diclofenac
-print('boiling: ',NBP(smile_represnt))
-print('melting: ', NMP(smile_represnt))
+# print('boiling: ',NBP(smile_represnt))
+# print('melting: ', NMP(smile_represnt))
 # print(dsDNA_concentration(50, 0.65))
 # print(ssRNA_concentration(50, 0.65))
 # print(ssDNA_concentration(50, 0.65))

@@ -1,0 +1,16 @@
+DRUG,SMILE,Mformula,Mw,Carbon,D_bond,BP_in_C,MP_in_C,Solubility_in_mg/ml,PKa,Strength,DrugClass,Targets,Toxicity,Exposure_routes
+Aspirin,CC(=O)OC1=CC=CC=C1C(=O)O,C9H8O4,180.16,9,5,140,135,10,3.5,350,"antiinflammatory, antipyretic agent",cyclooxygenase isozymes,salicylate toxicity,"inhalation, ingestion, skin, eye"
+Sevoflurane,C(OC(C(F)(F)F)C(F)(F)F)F,C4H3F7O,200.05,4,0,58.5,25,nan,nan,nan,"Anesthetics, Halogenated",GABAA receptors,likely cause of clinically apparent liver injury,"ingestion, inhalation"
+Propofol ,CC(C)C1=C(C(=CC=C1)C(C)C)O,C12H18O,178.27,12,3,256,18,0.124,11.1,1%,Anesthetics,GABAA receptors,fatty liver injury,
+Diazepam,CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3,C16H13ClN2O,284.74,16,8,nan,132,0.05,3.4,5,Anesthetics,GABAA receptors,"coma, areflexia, cardio-respiratory depression and apnoea",injection
+Midazolam,CC1=NC=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4F,C18H13ClFN3,325.8,18,9,497,159,0.0134,5.5,5,Anesthetics,GABAA receptors,cardiac and respiratory depression,"oral, rectal, intranasal"
+Morphine Sulfate,CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(C=C4)O.OS(=O)(=O)O,C17H21NO7S,383.4,17,6,190,255,0.15,8.08,10,"Anesthetics, Narcotics",mu receptors,"coma, areflexia, cardio-respiratory depression",injection
+Promethazine,CC(CN1C2=CC=CC=C2SC3=CC=CC=C31)N(C)C,C17H20N2S,284.4,17,6,190,60,0.0156,9.1,1,"Antihistamines, Antipruritics","H1, muscarinic, and dopamine receptors","cardiovascular depression, hypotension, respiratory depression",syrup
+Carbamazepine,C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N,C15H12N2O,236.27,15,8,399.6,190.2,0.018,13.9,100,anticonvulsant,A voltage-gated sodium channel alpha subunit,"Restlessness, muscular twitching, tremor, dilated pupils, nystagmus, psychomotor disturbances",n.a.
+Diazepam,CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3,C16H13ClN2O,284.74,16,8,nan,132,0.05,3.4,5,anticonvulsant,GABA,"ataxia, drowsiness, dysarthria, sedation, muscle weakness, profound sleep, hypotension","by mouth, interamuscular, rectal, nasal"
+Magnesium sulfate,[O-]S(=O)(=O)[O-].[Mg+2],MgSO4,120.37,0,2,n.a.,1124,710,n.a.,500,anticonvulsant,voltage-dependent L-type calcium channel,"hypotension, ECG changes, diarrhea, urinary retention, CNS depression and respiratory depression.",inhalation of its aerosol 
+Phenobarbitone,CCC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2,C12H12N2O3,232.23,12,6,n.a.,174,1.11,7.3,200,anticonvulsant,GABAA receptor,"oliguria, tachycardia, hypotension, lowered body temperature, and coma","mouth, nasal"
+Phenytoin Sodium,C1=CC=C(C=C1)C2(C(=O)[N-]C(=O)N2)C3=CC=CC=C3.[Na+],C15H11N2NaO2,274.25,15,8,n.a.,n a.,n.a.,n.a.,25,anticonvulsant,voltage gated sodium channel,BEHAVIORAL: ANOREXIA (HUMAN; GASTROINTESTINAL,injection
+Sodium valproate,CCCC(CCC)C(=O)[O-].[Na+],C8H15NaO2,166.19,8,1,n.a.,n.a.,n.a.,n.a.,100,anticonvulsant,"acyl-CoA dehydrogenase, histone deacetylase 9, etc","SKIN AND APPENDAGES (SKIN): DERMATITIS, ALLERGIC: AFTER SYSTEMIC EXPOSURE",injection
+lorazepam,C1=CC=C(C(=C1)C2=NC(C(=O)NC3=C2C=C(C=C3)Cl)O)Cl,C15H10Cl2N2O2,321.2,15,8,533.8,167,0.08,13,2,anticonvulsant,"GABAA receptor, denzodiazepine binding","deep respiratory depression, coma",injection
+Dexamethasone,CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C,C22H29FO5,392.5,22,4,n.a.,247.5,0.08,n.a.,0.5,anaphylaxis,,,

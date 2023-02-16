@@ -1,0 +1,15 @@
+DRUG,SMILE,MP_in_C
+Aspirin,CC(=O)OC1=CC=CC=C1C(=O)O,135
+Sevoflurane,C(OC(C(F)(F)F)C(F)(F)F)F,25
+Propofol�,CC(C)C1=C(C(=CC=C1)C(C)C)O,18
+Diazepam,CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3,132
+Midazolam,CC1=NC=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4F,159
+Morphine Sulfate,CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(C=C4)O.OS(=O)(=O)O,255
+Promethazine,CC(CN1C2=CC=CC=C2SC3=CC=CC=C31)N(C)C,60
+Carbamazepine,C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N,190.2
+Diazepam,CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3,132
+Magnesium sulfate,[O-]S(=O)(=O)[O-].[Mg+2],1124
+Phenobarbitone,CCC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2,174
+Phenytoin Sodium,C1=CC=C(C=C1)C2(C(=O)[N-]C(=O)N2)C3=CC=CC=C3.[Na+],n a.
+Sodium valproate,CCCC(CCC)C(=O)[O-].[Na+],n.a.
+lorazepam,C1=CC=C(C(=C1)C2=NC(C(=O)NC3=C2C=C(C=C3)Cl)O)Cl,167

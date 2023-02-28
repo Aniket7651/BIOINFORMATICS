@@ -2,9 +2,9 @@
 
 Hi I'm Aniket yadav,
 
-	Welcome to my package which is a type of computational biology and bioinformatics tool, this is a program based
+	Welcome to my python package which is a type of computational biology and bioinformatics tool, this is a program based
 	package not includes user interface now but, I can try with UI also at next time.
-		According to NCBI site, Bioinformatics is defined as the application of tools of computation and analysis to 
+		According to NCBI, Bioinformatics is defined as the application of tools of computation and analysis to 
 	the capture and interpretation of biological data. It is an interdisciplinary field, which harnesses computer 
 	science, mathematics, physics, and biology. Bioinformatics is essential for management of data in modern biology 
 	and medicine.
@@ -19,6 +19,7 @@ Hi I'm Aniket yadav,
 				|-- __init__.py
 				|-- DistanceTools.py
 				|-- GeneralChem.py
+				|-- qualitySequence.py
 				|-- SequenceTools.py
 			|-- database
 				|-- __init__.py
@@ -38,6 +39,7 @@ Hi I'm Aniket yadav,
 				|-- __init__.py
 				|-- FileFormat.py
 			|-- __init__.py
+			|-- sys.py
 			|-- License.txt
 			|-- README.txt
 			|-- setup.py

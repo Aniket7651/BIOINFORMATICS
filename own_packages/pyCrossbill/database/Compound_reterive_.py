@@ -173,10 +173,10 @@ class targets_info(drug_info):
 # print(dt_lis)
 # for i in soup.select('strong'):
 #     print(i.get_text())
-print(get_ID('rac A', database_name='nucleotide')[0])
+# print(get_ID('rac A', database_name='nucleotide')[0])
 drug = 'morphine'# 'paractamol'
 data = drug_info('DB00316').drug_detail()
 drug_IDs = DID('morphine')
-# print(targets_info(drug_IDs).target_file())
+print(targets_info(drug_IDs).target_file())
 # print(data['CAS number'])
 # print(drug_info('DB00316').drug_detail())
